@@ -1,0 +1,90 @@
+.app {
+  min-height: 100vh;
+  background-color: #f4f7fb;
+  color: #1e293b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #ffffff;
+  padding: 28px 20px;
+  text-align: center;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.header h1 {
+  margin: 0;
+  color: #2563eb;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Main content */
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.student-section {
+  margin-bottom: 35px;
+}
+
+.student-section h2 {
+  text-align: center;
+  color: #1e293b;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Student profile */
+.student-profile {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 22px;
+  background-color: #ffffff;
+  border: 2px solid #dbe3ef;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.student-profile p {
+  margin: 12px 0;
+  font-size: 17px;
+  color: #475569;
+}
+
+.student-profile strong {
+  color: #2563eb;
+}
+
+/* Footer */
+.footer {
+  background-color: #ffffff;
+  border-top: 2px solid #e2e8f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  color: #64748b;
+  font-size: 15px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 26px;
+  }
+
+  .main-content {
+    padding: 30px 15px;
+  }
+
+  .student-profile {
+    padding: 18px;
+  }
+}
